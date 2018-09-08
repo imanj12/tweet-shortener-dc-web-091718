@@ -26,9 +26,8 @@ def word_substituter(tweet)
   
   tweet_array = tweet.split(" ")
   tweet_array.collect! do |obj|
-    shortened_word = dictionary(obj)
-    if shortened_word != nil
-      
+    if dictionary(obj) != nil
+      dictionary(obj)
     end
   end
   short_tweet = shortened_tweet_array.join(" ")

@@ -1,4 +1,4 @@
-def dictionary
+def dictionary(word)
 
   dictionary = {
     "hello" => "hi",
@@ -12,6 +12,8 @@ def dictionary
     "at" => "@",
     "and" => "&"
   }
+
+  dictionary
 
 end
 

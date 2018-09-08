@@ -28,6 +28,8 @@ def word_substituter(tweet)
   tweet_array.collect! do |obj|
     if dictionary(obj) != nil
       dictionary(obj)
+    else
+      obj
     end
   end
   tweet_array.join(" ")

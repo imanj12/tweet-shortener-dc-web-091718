@@ -18,6 +18,7 @@ def dictionary(word)
       return value
     end
   end
+  return nil
 
 end
 
@@ -25,6 +26,7 @@ def word_substituter(tweet)
   
   tweet_array = tweet.split(" ")
   tweet_array.each do |obj|
+    if dictionary(obj) != nil
+      short_word = dictionary(obj)
     
-  
 end

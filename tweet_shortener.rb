@@ -1,4 +1,4 @@
-def dictionary(word, substitute)
+def dictionary
 
   
 

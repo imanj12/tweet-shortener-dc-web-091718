@@ -13,7 +13,11 @@ def dictionary(word)
     "and" => "&"
   }
 
-  dictionary
+  dictionary.each do |key, value|
+    if key == word
+      return value
+    end
+  end
 
 end
 

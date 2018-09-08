@@ -24,5 +24,7 @@ end
 def word_substituter(tweet)
   
   tweet_array = tweet.split(" ")
+  tweet-array.each do |obj|
+    
   
 end

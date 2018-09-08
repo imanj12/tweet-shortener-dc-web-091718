@@ -30,6 +30,6 @@ def word_substituter(tweet)
       dictionary(obj)
     end
   end
-  short_tweet = shortened_tweet_array.join(" ")
+  tweet_array.join(" ")
   
 end

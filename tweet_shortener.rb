@@ -12,7 +12,7 @@ def dictionary(word)
     "at" => "@",
     "and" => "&"
   }
-
+  
   dictionary.each do |key, value|
     if key == word
       return value
@@ -33,7 +33,7 @@ def word_substituter(tweet)
     end
   end
   tweet_array.join(" ")
-
+  
 end
 
 def bulk_tweet_shortener(tweets)

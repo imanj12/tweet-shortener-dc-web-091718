@@ -14,7 +14,7 @@ def dictionary(word)
   }
   
   dictionary.each do |key, value|
-    if key == word
+    if key == word.downcase
       return value
     end
   end
